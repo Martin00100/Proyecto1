@@ -1,0 +1,73 @@
+@media all and (min-width:769px){
+	.perfil{
+		padding-top: 10px;
+	}
+	.foto1{
+		margin-right: 30px;
+	}
+
+	.conoceme{
+		padding-left: 30px;
+		text-align: center;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:rgba(192,192,192, 0.781) ;
+        width: $todo;
+        height: $todo;
+        border-radius: 20px;
+    }
+
+}
+
+
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:rgba(192,192,192, 0.781) ;
+        width: $todo;
+        height: $todo;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    p{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:rgba(192,192,192, 0.781) ;
+        width: $todo;
+        height: $todo;
+        border-radius: 20px;
+    }
+
+}
+
